@@ -1,0 +1,17 @@
+.nav_container{
+    width: 100%px;
+    height: 151px;
+    display: flex;
+    justify-content: space-around;
+   
+}
+.top_section{
+    display: flex;
+    flex-direction: row;
+}
+.rules{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}

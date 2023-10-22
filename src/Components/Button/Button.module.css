@@ -1,0 +1,28 @@
+.button_container{
+    max-width: 220px;
+    padding: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.button_container button{
+    background-color: black;
+    max-width: 220px;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    border: 1px solid transparent;
+    transition: 0.4s background ease-in;
+    font-size: 16px;
+
+    &:hover{
+        background-color: white;
+        color: black;
+        border:1px solid;
+        border-radius: 5px;
+        transition: 0.3s background ease-in;
+
+    }
+    
+}
