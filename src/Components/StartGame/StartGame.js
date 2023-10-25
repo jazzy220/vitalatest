@@ -5,7 +5,7 @@ return(
         <>
         <div className={`${styles.container_start}`}>
             <div>
-            <img src="./dices 1.png" alt="dice img"></img>
+            <img src=".../src/assets/images.dice 1.png" alt="dice img"></img>
             </div>
             <div className={`${styles.content}`}>
             <h1>Dice Game</h1>
