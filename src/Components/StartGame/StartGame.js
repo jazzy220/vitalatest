@@ -1,11 +1,12 @@
 import styles from "./StartGame.module.css"
 import Button from "../Button/Button"
+import dice from "../assets/dices.png";
 const StartGame=({togglegame})=>{
 return(
         <>
         <div className={`${styles.container_start}`}>
             <div>
-            <img src=".../src/assets/images.dice 1.png" alt="dice img"></img>
+            <img src={dice} alt="dice img"></img>
             </div>
             <div className={`${styles.content}`}>
             <h1>Dice Game</h1>

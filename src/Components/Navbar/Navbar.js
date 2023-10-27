@@ -8,7 +8,7 @@ const Navbar=()=>{
 
     const [score,setScore]=useState(0);
     const [number,setNumber]=useState();
-    const[currentDice,setCurrentDice]=useState(0);
+    const[currentDice,setCurrentDice]=useState(1);
     const [error,setError]=useState("");
     const [statement,setStatement]=useState(false)
     const [btn1,setBtn1]=useState(false);
